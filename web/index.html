@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Task Manager</h1>
+      </header>
+      <main>
+        <section class="task-input">
+          <input type="text" id="taskInput" placeholder="Add a task..." />
+          <select id="categorySelector">
+            <option value="work">Work</option>
+            <option value="personal">Personal</option>
+          </select>
+          <button id="addTaskButton">Add Task</button>
+        </section>
+        <section id="taskList">
+          <!-- Task categories and tasks will appear here -->
+        </section>
+      </main>
+      <footer>
+        <p id="taskSummary">0 tasks, 0 completed</p>
+      </footer>
+    </div>
+    <script type="application/dart" src="main.dart"></script>
+    <script src="https://dart.dev/assets/dart.js"></script>
+  </body>
+</html>
